@@ -145,6 +145,8 @@ if [ "x${relame_prj_version}" == "x1" ];then
 OPERATOR_19671="31"
 OPERATOR_19672="11"
 OPERATOR_19771="8"
+OPERATOR_19670="13"
+OPERATOR_19654="54"
 
 if [ -s /vendor/etc/wifi/bin_version_realme ]; then
     system_version=`cat /vendor/etc/wifi/bin_version_realme`
@@ -165,7 +167,7 @@ if [ ! -s /mnt/vendor/persist/bdwlan.bin  -o $system_version -gt $persist_versio
                $OPERATOR_19771)
                cp /vendor/etc/wifi/bdwlan_19771.bin /mnt/vendor/persist/bdwlan_19771.bin
                ;;
-               $OPERATOR_19671)
+               $OPERATOR_19671 | $OPERATOR_19654 |$OPERATOR_19670)
                cp /vendor/etc/wifi/bdwlan_19671.bin /mnt/vendor/persist/bdwlan_19671.bin
                ;;
                $OPERATOR_19672)
@@ -184,7 +186,7 @@ case $prj_version in
            $OPERATOR_19771)
            cp /mnt/vendor/persist/bdwlan_19771.bin /mnt/vendor/persist/bdwlan.bin
            ;;
-           $OPERATOR_19671)
+           $OPERATOR_19671 | $OPERATOR_19654 | $OPERATOR_19670)
            cp /mnt/vendor/persist/bdwlan_19671.bin /mnt/vendor/persist/bdwlan.bin
            ;;
            $OPERATOR_19672)

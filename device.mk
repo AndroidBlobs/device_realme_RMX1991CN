@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19111_id1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19111_id1.bin \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19331_id1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19331_id1.bin \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19513_id1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19513_id1.bin \
+    $(LOCAL_PATH)/configs/wifi/bdwlan_19670.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19670.bin \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19671.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19671.bin \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19672.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19672.bin \
     $(LOCAL_PATH)/configs/wifi/bdwlan_19771.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19771.bin \

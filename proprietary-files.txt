@@ -1004,6 +1004,7 @@ vendor/firmware/cryptoeng.b07
 vendor/firmware/cryptoeng.mdt
 vendor/firmware/dpAP_full.mbn
 vendor/firmware/dpAP_mini.mbn
+vendor/firmware/dpMSA.mbn
 vendor/firmware/facereg.b00
 vendor/firmware/facereg.b01
 vendor/firmware/facereg.b02
@@ -1442,10 +1443,12 @@ vendor/etc/libnfc-mtp-SN100.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc_beijing_config.conf
+vendor/etc/libnfc_chongqing_config.conf
 vendor/etc/libnfc_dalian_config.conf
 vendor/etc/libnfc_default_config.conf
 vendor/etc/libnfc_guangzhou_config.conf
 vendor/etc/libnfc_nanning_config.conf
+vendor/etc/libnfc_shanghai_config.conf
 vendor/etc/libnfc_shenzhen_config.conf
 vendor/etc/libnfc_suzhou_config.conf
 vendor/etc/libnfc_xiamen_config.conf
@@ -2040,13 +2043,13 @@ vendor/bin/thermal-engine
 vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine.conf
 vendor/lib/hw/android.hardware.thermal@1.0-impl.so
-vendor/lib/hw/thermal.sm6150.so
 -vendor/lib/libthermalclient.so
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
-vendor/lib64/hw/thermal.sm6150.so
 -vendor/lib64/libthermalclient.so
 
 # Thermal-Hardware
+vendor/lib/hw/thermal.sm6150.so
+vendor/lib64/hw/thermal.sm6150.so
 
 # Time
 -vendor/app/TimeService/TimeService.apk
